@@ -147,7 +147,6 @@ header nav{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
-    border: 2px solid orange;
 
 }
 h1 {
@@ -164,7 +163,6 @@ h1 {
     justify-content:space-between;
     justify-content:center;
     align-items: center;
-    border: 2px solid red;
 }
 .VanGogh{
     width:100%;
