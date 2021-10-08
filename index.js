@@ -296,7 +296,7 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(array) {
-    const newArray = [...array].push({ 
+    array.push({ 
       "id": 20,
       "name": "Your Name Here", 
       "years": "Your Birth Year - current day",
@@ -304,7 +304,7 @@ function addArtist(array) {
       "nationality": "Your Nationality Here",
       "bio": "Add 1-2 sentences (or use lorem ipsum)"
     });
-    return newArray;
+    return array;
 }
 console.log(addArtist(artists));
 
