@@ -248,14 +248,20 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array) {
+    let twentieth = [];
+    array[bio].split(" ");
+    for (let i = 0; i < array.length; i++) {
+          if (array[i] >= 1900 && array[i] < 2000){
+          twentieth.push([i].name)
+
   //let got20s = [];
   //let twentieth = array.split(" ");
    //   for (let i = 0; i < twentieth.length; i++) {
       //    if (twentieth[i] >= 1900 && twentieth[i] < 2000){
        //   got20s.push([i].name)
-     // }
-  //  }
-  //  return got20s;
+      }
+    }
+    return twentieth;
 }
 
 //console.log(get20s(artists));

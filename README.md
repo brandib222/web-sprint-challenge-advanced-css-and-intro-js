@@ -25,11 +25,11 @@ Please answer the following questions below, you may edit the readme file to inc
 1. How would you describe accessibility on the web to someone new to programming?
         Accessibility makes the web generally more user-friendly and makes the product easier to use for a wider variety of people. Often, it has benefits outside of initially intended uses.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
-        Adding alt tags in your code, ******
+        Adding semantic tags helps with screen readers, being mindful of coloring helps people with color blindness, and making sure products are responsive makes sure people can zoom in and out as they need to and maintain functionality.
 3. How would you explain the concept of a variable to someone new to programming?
-        A variable is something that is likely to change based on the input data. For example if favoriteFood = pizza, whatever you're building might give you different results than if favoriteFood = tacos. 
+        A variable is something that is likely to change based on the input data. For example if favoriteFood = pizza, whatever you're building might give you different results than if favoriteFood = tacos, favoriteFood being the variable. 
 4. What is the purpose of using functions in code?
-        Functions perform the actions within code. They allow for more interaction with a web page, rather than a site that just displays data.
+        Functions allow you to perform actions again and again without having to rewrite the code. 
 5. How do you access a key inside of an object inside of an array?
         array[index].key
 
