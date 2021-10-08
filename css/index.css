@@ -140,14 +140,11 @@ button:hover{
 header nav{
     width:60%;
 }
-
-
 .title-container{
     width: 620px;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
-
 }
 h1 {
     font-size: 40px;
