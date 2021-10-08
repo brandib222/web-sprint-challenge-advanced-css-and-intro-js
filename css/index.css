@@ -83,9 +83,9 @@ nav span{
 }
 /*Title Section Styles*/
 .title-container{
-    display:flex;
+   /* display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;*/
 }
 .title-container div {	
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
@@ -123,8 +123,8 @@ button:hover{
 .artists-container{
     display:flex;
     justify-content: space-around;
-    width:80%;
-    margin:0 auto;
+    width:100%;
+    margin:2%;
 }
 
 .artist{
@@ -133,4 +133,59 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media(max-width:500px){
+
+header nav{
+    width:60%;
+}
+
+
+.title-container{
+    width: 620px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 2px solid orange;
+
+}
+h1 {
+    font-size: 40px;
+}
+.title-container hr{
+    width:100%;
+}
+.artist{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:space-between;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid red;
+}
+.VanGogh{
+    width:100%;
+}
+.VanGogh img{
+    height:250px;
+    width:70%;
+}
+.VanGogh .bio{
+    width:90%;
+    font-size:15.5px;
+}
+.turner{
+    width:100%;
+}
+.turner img{
+    height:250px;
+    width:70%;
+}
+.turner .bio{
+    width:90%;
+    font-size:15.5px;
+
 }
