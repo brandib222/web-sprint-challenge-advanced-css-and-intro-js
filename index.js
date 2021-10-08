@@ -247,10 +247,18 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(/*Your Code Here*/) {
-  /*Your Code Here*/
+function get20s(array) {
+  //let got20s = [];
+  //let twentieth = array.split(" ");
+   //   for (let i = 0; i < twentieth.length; i++) {
+      //    if (twentieth[i] >= 1900 && twentieth[i] < 2000){
+       //   got20s.push([i].name)
+     // }
+  //  }
+  //  return got20s;
 }
 
+console.log(get20s(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -288,7 +296,7 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(array) {
-    const newArray = array.push({ 
+    const newArray = [...array].push({ 
       "id": 20,
       "name": "Your Name Here", 
       "years": "Your Birth Year - current day",
@@ -312,10 +320,10 @@ function lotsOfArt(array) {
   let moreThanAHundred = [];
     for (let i =0; i < array.length; i++) {
     if (array[i].paintings > 100) {
-        moreThanAHundred.push(array[i].paintings);
+        moreThanAHundred.push(array[i].name);
     }
-    return moreThanAHundred;
 }
+return moreThanAHundred;
 }
 console.log(lotsOfArt(artists));
 
